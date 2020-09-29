@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+    broker:
+        image: webcenter/activemq
+        ports:
+        - 61616:61616
+        - 8161:8161
+    mocker:
+        build: ./Mockserver
+        ports:
+        - 1080:1080
+    app:
+        build: ./SimpleCamelExample

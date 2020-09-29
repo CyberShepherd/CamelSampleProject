@@ -1,0 +1,10 @@
+{
+                    
+  "httpRequest" : {
+    "method" : "PUT",
+    "path" : "/numbers"
+  },
+  "httpResponse" : {
+    "statusCode": 200
+  }
+}
